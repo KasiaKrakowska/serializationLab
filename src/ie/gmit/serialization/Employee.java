@@ -13,7 +13,7 @@ class Employee implements Serializable {
 	
 	//instance variable
 	private String surname;
-	private transient String ppsn; //is not serialized because is pps number which we want keep private
+	private transient String ppsn; //transient - is not serialized because is pps number which we want keep private
 	
 	//constructor
 	public Employee(String ppsn, String surname) {
